@@ -125,45 +125,38 @@ The following is a step by step guide in building a data flow for use within CDF
 
 ---
 
-## 3b. Deploy a flow and parameter group in the Flow Designer
-
-
-   
----
-
-## 3c. Design the flow in the Flow Designer
-
----
-
+## 3a. Deploy a flow and parameter group in the Flow Designer
 ### 3b.1 Open the prepared draft flow
 
 1. Click on the main menu (top left 9 dots icon on the UI) and open **DataFlow**, go to **Catalog** and look for **CDF Workshop draft** 
 
-    <img src="images/3_cdf_menu_1.png" alt="image" style="width:800px;height:auto;">
+    <img src="images/3_cdf_menu_1.png" alt="image" style="width:800px;height:auto;">   
 
-
-2. To create your flow, click on the **CDF Workshop draft** and select (<img src="images/3_cdf_createnewdraft.png" alt="image" style="width:auto;height:30px;">) select the Target Project: **CDF Workshop** and name the flow substituting the **\<userid>** with your actual userid: **\<userid>-syslog-kafka-flow** and click **Create**
+2. To review the prepared flow, click on the **CDF Workshop draft** and select (<img src="images/3_cdf_createnewdraft.png" alt="image" style="width:auto;height:30px;">) select the Target Project: **CDF Workshop** and name the flow substituting the **\<studentid>** with your actual userid: **\<studentid>-syslog-kafka-flow** and click **Create**
 
     <img src="images/3_1_create_flow_1.png" alt="image" style="width:500px;height:auto;">
 
-
-### 3b.2 Configure parameters for the flow
-**We have been prepared the parameters in the draft for you to make the setup easier, otherwise you would be required to create the parameters completely. 
-Because we have preloaded these for you, you need to customize some parameters, in the next steps we are going to edit the predefined parameters.**
-
-This default context is automatically bound to each Process Group you create within y*our draft Flow, making all parameters available to be used in any process group.*
+### 3a.2 Configure parameters for the flow
+In the previous exercise we have prepared a parameter group to be used with the flow we just have deployed. 
 
 1. To modify a Parameter, click on **Flow Options** in the top right corner and select Parameters
     
     <img src="images/3_2_flow_options.png" alt="image" style="width:600px;height:auto;">
 
-2. Please locate the parameters which are using **\<userid>** and open them and substitute it with your actual userid, as on the following picture, and after modification please select **Apply Changes** at the bottom
+You will see pre-defined parameters that do not make sense for your environment. This is going to be mitigated, click on **Parameter Groups** and click on **Import Shared Parameter Group**  
 
-    <img src="images/3_cdf_editparam_2.png" alt="image" style="width:800px;height:auto;">
+2. In the dialog select the **\<studentid>-syslog-kafka** parameter group you created previously. Replace studentid with your assigned ID.
 
-3. Locate the parameter **CDP Workload User Password** and similarly add the password for the login to the **Value** field and click on **Apply Changes**
+    <img src="images/Screenshot 2025-05-01 at 13.07.16.png" alt="image" style="width:600px;height:auto;">
 
-4. Enable the Test Session before enabling the services.
+3. When you have selected your Parameter Group you will get a warning that you have overlapping parameters. By checking the box in the warning you will use the parameter values from the parameter group. Click on **Import** and in the bottom left click on **Apply Changes** to acknowledge the new parameter group. Click on **Ok** when you have reviewed the affected components by the new paramaters.
+
+   <img src="images/Screenshot 2025-05-01 at 13.12.06.png" alt="image" style="width:600px;height:auto;">
+
+
+### 3a.3 Start test session and enable the services
+
+1. Enable the Test Session before enabling the services.
 
    * Select **Flow Options > Test Session**. Use the latest NiFi version (default).
    * Click the **Start** button to start a test session. The test session status changes to **Initializing Test Session**.
