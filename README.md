@@ -80,11 +80,11 @@ The following is a step by step guide in building a data flow for use within CDF
 ```
 ---
 
-## 3a. Create the Parameter Group in CDF
+## 3. Create the Parameter Group and review the flow in CDF
 
 ---
 
-### 3a.1 Setup the resource
+### 3.1 Setup the resource
 
 1. Click on the main menu (top left 9 dots icon on the UI) and open **DataFlow**, go to **Resources** and click on **ReplaceWithNameofHoLEnvironment** 
 
@@ -125,8 +125,8 @@ The following is a step by step guide in building a data flow for use within CDF
 
 ---
 
-## 3a. Deploy a flow and parameter group in the Flow Designer
-### 3b.1 Open the prepared draft flow
+### 3.2 Deploy a flow and parameter group in the Flow Designer
+#### 3.2.1 Open the prepared draft flow
 
 1. Click on the main menu (top left 9 dots icon on the UI) and open **DataFlow**, go to **Catalog** and look for **CDF Workshop draft** 
 
@@ -136,7 +136,7 @@ The following is a step by step guide in building a data flow for use within CDF
 
     <img src="images/3_1_create_flow_1.png" alt="image" style="width:500px;height:auto;">
 
-### 3a.2 Configure parameters for the flow
+#### 3.2.2 Configure parameters for the flow
 In the previous exercise we have prepared a parameter group to be used with the flow we just have deployed. 
 
 1. To modify a Parameter, click on **Flow Options** in the top right corner and select Parameters
@@ -154,7 +154,7 @@ You will see pre-defined parameters that do not make sense for your environment.
    <img src="images/Screenshot 2025-05-01 at 13.12.06.png" alt="image" style="width:600px;height:auto;">
 
 
-### 3a.3 Start test session and enable the services
+### 3.3 Start test session and enable the services
 
 1. Enable the Test Session before enabling the services.
 
