@@ -164,7 +164,7 @@ You will see pre-defined parameters that do not make sense for your environment.
 
    <img src="images/3_2_test_session.png" alt="image" style="width:600px;height:auto;">
 
-   You are not yet at the point of testing the flow, but enabling a test session provided you an option to enable all controller services, except the **Dummy Controller Service - Do not touch!!!**, which we will do in the next step. 
+   You are not yet at the point of testing the flow, but enabling a test session provided you an option to enable all controller services. 
 
 4. Click **Flow Options > Services**
 
@@ -173,13 +173,9 @@ You will see pre-defined parameters that do not make sense for your environment.
    <img src="images/3_3_cs.png" alt="image" style="width:600px;height:auto;">
 
    * Select **Flow Options > Services**
-   * Enable all services (**except the Dummy Controller Service - DELETE THIS!!!**) by clicking on the and select the (<img src="images/enable.png" alt="image" style="width:auto;height:30px;">) icon, start with the **WS_CDP_Schema_Registry**
+   * Enable all services by clicking on the and select the (<img src="images/enable.png" alt="image" style="width:auto;height:30px;">) icon, start with the **WS_CDP_Schema_Registry**
 
     <img src="images/3_4_controller.png" alt="image" style="width:600px;height:auto;">
-
-   * Delete the controller service: **Dummy Controller Service - DELETE THIS!!!**) by clicking on the trash icon like on the following picture:
-  
-     <img src="images/3_5_delete_dummy.png" alt="image" style="width:600px;height:auto;">
 
 5.	Click on the **Back to Flow Designer** link to go back to the flow canvas
 
