@@ -97,12 +97,28 @@ The following is a step by step guide in building a data flow for use within CDF
 
 3. Fill in the dialog for the new paramater group
     * Select the project that has been setup for the vhol : **ReplaceWithTheCorrectProjetName**
-    * Set the **Parameter Group Name** to **<studentid>-syslog-kafka** ( So if you are **student12** the name will be **student12-syslog-kafka** )
+    * Set the **Parameter Group Name** to **\<studentid>-syslog-kafka** ( So if you are **student12** the name will be **student12-syslog-kafka** )
     * Set **Description** : "Parameter Group Name for CDF Hands on Lab"
     * Click on **Create**
 
   
    <img src="images/Screenshot 2025-05-01 at 09.54.29.png" alt="image" style="width:800px;height:auto;">   
+
+4. Use the **Add Parameter** button to create the necessary parameters ( **The CDP Workload Password field should be created as sensitive parameter** )listed in this table:
+
+   | **Name**  | **Value** | **Sensitive** |
+   | ----------------- | ------------- | ---  |
+   | CDP Workload User | **\<studentid>** | No |
+   | CDP Workload User Password | **Workload Password** | **Yes** |
+   | Filter Rule | SELECT * FROM FLOWFILE | No |
+   | Kafka Broker Endpoint | Ask Instructor | No |
+   | Kafka Destination Avro Topic | **\<studentid>-syslog-avro** | No |
+   | Kafka Destination JSON Topic | **\<studentid>-syslog-json** | No |
+   | Kafka Producer ID | **\<studentid>-producer** | No |
+   | Schema Name | **\<studentid>-syslog-avro** | No |
+   | Schema Registry Hostname | Ask Instructor | No |    
+
+
    
 ---
 
