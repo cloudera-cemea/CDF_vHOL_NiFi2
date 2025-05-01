@@ -116,13 +116,22 @@ The following is a step by step guide in building a data flow for use within CDF
    | Kafka Destination JSON Topic | **\<studentid>-syslog-json** | No |
    | Kafka Producer ID | **\<studentid>-producer** | No |
    | Schema Name | **\<studentid>-syslog-avro** | No |
-   | Schema Registry Hostname | Ask Instructor | No |    
+   | Schema Registry Hostname | Ask Instructor | No |
+
+    * Your paramater group should appear like this :
+  
+  
+   <img src="images/Screenshot 2025-05-01 at 10.40.08.png" alt="image" style="width:800px;height:auto;">  
+
+---
+
+## 3b. Deploy a flow and parameter group in the Flow Designer
 
 
    
 ---
 
-## 3b. Design the flow in the Flow Designer
+## 3c. Design the flow in the Flow Designer
 
 ---
 
