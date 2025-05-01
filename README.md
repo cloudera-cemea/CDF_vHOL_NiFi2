@@ -78,14 +78,17 @@ The following is a step by step guide in building a data flow for use within CDF
     ]
     }
 ```
+---
+
+## 3a. Create the Parameter Group in CDF
 
 ---
 
-## 3. Design the flow in the Flow Designer
+## 3b. Design the flow in the Flow Designer
 
 ---
 
-### 3.1 Open the prepared draft flow
+### 3b.1 Open the prepared draft flow
 
 1. Click on the main menu (top left 9 dots icon on the UI) and open **DataFlow**, go to **Catalog** and look for **CDF Workshop draft** 
 
@@ -97,7 +100,7 @@ The following is a step by step guide in building a data flow for use within CDF
     <img src="images/3_1_create_flow_1.png" alt="image" style="width:500px;height:auto;">
 
 
-### 3.2 Configure parameters for the flow
+### 3b.2 Configure parameters for the flow
 **We have been prepared the parameters in the draft for you to make the setup easier, otherwise you would be required to create the parameters completely. 
 Because we have preloaded these for you, you need to customize some parameters, in the next steps we are going to edit the predefined parameters.**
 
