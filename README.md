@@ -183,6 +183,8 @@ You will see pre-defined parameters that do not make sense for your environment.
 
 ### 3.4 Design the flow
 
+** Since we have already provided the flow for you, chapters 3.4 and 3.5 can be used to understand how the flow has been constructed. In chapter 4 the lab continues **
+
 1.	Open the **Flow Design** page
 2.	Create the **Generate Syslog RFC5424** processor
 
