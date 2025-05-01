@@ -84,6 +84,28 @@ The following is a step by step guide in building a data flow for use within CDF
 
 ---
 
+### 3a.1 Setup the resource
+
+1. Click on the main menu (top left 9 dots icon on the UI) and open **DataFlow**, go to **Resources** and click on **ReplaceWithNameofHoLEnvironment** 
+
+    <img src="images/Screenshot 2025-05-01 at 09.44.28.png" alt="image" style="width:800px;height:auto;">
+
+
+2. Click on **Parameter Groups** and click on **Create Parameter Group**
+
+   <img src="images/Screenshot 2025-05-01 at 09.48.47.png" alt="image" style="width:800px;height:auto;">
+
+3. Fill in the dialog for the new paramater group
+    * Select the project that has been setup for the vhol : **ReplaceWithTheCorrectProjetName**
+    * Set the **Parameter Group Name** to **<studentid>-syslog-kafka** ( So if you are **student12** the name will be **student12-syslog-kafka** )
+    * Set **Description** : "Parameter Group Name for CDF Hands on Lab"
+    * Click on **Create**
+
+  
+   <img src="images/Screenshot 2025-05-01 at 09.54.29.png" alt="image" style="width:800px;height:auto;">   
+   
+---
+
 ## 3b. Design the flow in the Flow Designer
 
 ---
