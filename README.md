@@ -96,7 +96,7 @@ The following is a step by step guide in building a data flow for use within CDF
    <img src="images/Screenshot 2025-05-01 at 09.48.47.png" alt="image" style="width:800px;height:auto;">
 
 3. Fill in the dialog for the new paramater group
-    * Select the project that has been setup for the vhol : **ReplaceWithTheCorrectProjetName**
+    * Select the project that has been setup for the vhol : **CDF Workshop**
     * Set the **Parameter Group Name** to **\<studentid>-syslog-kafka** ( So if you are **student12** the name will be **student12-syslog-kafka** )
     * Set **Description** : "Parameter Group Name for CDF Hands on Lab"
     * Click on **Create**
