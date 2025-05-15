@@ -518,17 +518,11 @@ OR
 
 7. In the **Parameters** page, provide the correct values for the parameter for the production run and then click **Next**. Most of the parameters already have good defaults and you only need to change them if needed. However, you must re-enter the **CDP Workload User Password**.
 
-    | **Property**  | **Value** |
-    | ----------------- | ------------- | 
-    | CDP Workload User | **The workload username for the current user** |
-    | CDP Workload Password | **The workload password for the current user** |
-    | Filter Rule | **SELECT * FROM FLOWFILE** |
-    | Kafka Broker Endpoint | **Comma separated list of Kafka Brokers** |
-    | Kafka Destination Avro Topic | **\<userid>-syslog-avro** |
-    | Kafka Destination JSON Topic | **\<userid>-syslog-json** |
-    | Kafka Producer ID | **\<userid>-producer** |
-    | Schema Name | **\<userid>-syslog-avro** |
-    | Schema Registry Hostname | **The hostname of the master server in the Kafka Datahub** |
+8. Click on **Import Shared Parameters**
+
+   * Select the parameter group you created earlier and used in the draft designer: **\<studentid>-syslog-kafka**
+   * Click on **Import**
+   * Click on **Next**
 
 
 9. In the **Sizing & Scaling** dialog, select the following and then click **Next**:
