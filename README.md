@@ -137,7 +137,7 @@ This default context is automatically bound to each Process Group you create wit
    <img src="images/3_3_cs.png" alt="image" style="width:600px;height:auto;">
 
    * Select **Flow Options > Services**
-   * Enable all services (**except the Dummy Controller Service - DELETE THIS!!!**) by clicking on the and select the (<img src="images/enable.png" alt="image" style="width:auto;height:30px;">) icon, start with the **KerberosPasswordUserService** and then **WS_CDP_Schema_Registry**
+   * Enable all services (**except the Dummy Controller Service - DELETE THIS!!!**) by clicking on the and select the (<img src="images/enable.png" alt="image" style="width:auto;height:30px;">) icon, start with the **KerberosPasswordUserService**, **WS_CDP_Schema_Registry** and **ClouderaEncodedSchemaReferenceWriter**
 
     <img src="images/3_4_controller.png" alt="image" style="width:600px;height:auto;">
 
