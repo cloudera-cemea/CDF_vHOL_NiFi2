@@ -118,6 +118,7 @@ This default context is automatically bound to each Process Group you create wit
 
    * Select **Flow Options > Test Session**. Use the latest NiFi version (default).
    * Click the **Start** button to start a test session. The test session status changes to **Initializing Test Session**.
+   * In the overview of the session settings make sure **This flow deployment uses custom python processors** is checked. When you check this you will get a pop-up to specify the S3 location of the custom python processor we are going to use. Ask the instructor for the specific location. Your username and workload password are required.
    * Wait for the status to change to Active Test Session.
 
    <img src="images/3_2_test_session.png" alt="image" style="width:600px;height:auto;">
