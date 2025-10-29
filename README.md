@@ -437,8 +437,9 @@ OR
     | Enable Auto Scaling | **Enabled** |
     | Min Nodes | **1** |
     | Max Nodes | **3** |
+    |Additional Storage for Python Processors | **1Gb** |
 
-10. In the Key Performance Indicators page, click on Add New KPI to add the following KPIs.
+11. In the Key Performance Indicators page, click on Add New KPI to add the following KPIs.
 
     <img src="images/6_add_kpi.png" alt="image" style="width:200px;height:auto;">
 
@@ -466,25 +467,25 @@ OR
 
         <img src="images/6_kpi_2.png" alt="image" style="width:600px;height:auto;">
 
-11.	Review the KPIs and click Next.
+12.	Review the KPIs and click Next.
 
     <img src="images/6_kpi_list.png" alt="image" style="width:800px;height:auto;">
 
-12.	In the Review page, review your deployment details.
+13.	In the Review page, review your deployment details.
 
     Notice that in this page there's a **>_ View CLI Command** link, which allows you to automate the flow deployment using the CDP CLI.
 
-13.	Click Deploy to initiate the flow deployment.
+14.	Click Deploy to initiate the flow deployment.
 
-14.	In the DataFlow Dashboard **Deployments**, monitor your flow until it's running successfully (a green check mark will appear once the deployment has completed)
+15.	In the DataFlow Dashboard **Deployments**, monitor your flow until it's running successfully (a green check mark will appear once the deployment has completed)
          
     <img src="images/6_flow_good_health.png" alt="image" style="width:10000px;height:auto;">
 
-15.	 Click on your deployment and explore the flow details and monitor the KPI metrics that are shown on this page.
+16.	 Click on your deployment and explore the flow details and monitor the KPI metrics that are shown on this page.
 
-16.	Then click on **Manage Deployment** and explore the options under Deployment Settings, which allow you to manage your production flow deployment.
+17.	Then click on **Manage Deployment** and explore the options under Deployment Settings, which allow you to manage your production flow deployment.
 
-17.	Explore the links in the **Actions** menu on this page.
+18.	Explore the links in the **Actions** menu on this page.
 
 | <img src="images/info-icon.png" alt="info" style="width:16px;height:auto;"> Congratulations, you've completed Lab 1! Here's what you accomplished: you deployed a realtime flow that is reading Syslog data and publish every event, serialized in Avro and JSON formats, into 2 different Kafka topics. |
 | ---- |
