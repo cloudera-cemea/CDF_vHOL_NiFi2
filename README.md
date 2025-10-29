@@ -233,8 +233,8 @@ This default context is automatically bound to each Process Group you create wit
             | Use Transactions| **false** |
             | Security Protocol| **SASL_SSL** |
             | SASL Mechanism| **PLAIN** |
-            | Username| **#{CDP Workload User}** | 
-            | Password| **#{CDP Workload User Password}** | 
+            | sasl.username| **#{CDP Workload User}** | 
+            | sasl.password| **#{CDP Workload User Password}** | 
             | SSL Context Service| **Default NiFi SSL Context Service** |
 
             <img src="images/3_4_publish_kafka_config.png" alt="image" style="width:600px;height:auto;">
