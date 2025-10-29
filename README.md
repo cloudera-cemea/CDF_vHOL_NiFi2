@@ -380,7 +380,8 @@ OR
 2.	In the Publish Flow dialog box, enter the following details:
     1. Flow Name: only when you publish your flow for the first time.
     2. Flow Description: only when you publish your flow for the first time e.g. "Flow generates syslog messages and writes them to Kafka"
-    3. Version Comments: every time a flow version is published.
+    3. Collection: Unassigned
+    4. Version Comments: every time a flow version is published.
 
     <img src="images/5_publish_flow_dialog.png" alt="image" style="width:600px;height:auto;">
 
