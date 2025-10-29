@@ -410,7 +410,7 @@ OR
 
     <img src="images/6_flow_deployment_name.png" alt="image" style="width:800px;height:auto;">
 
-6. In the **NiFi Configuration** page, accept all the defaults (no need to change runtime version, autostart behavior, inbound connections and custom NAR) and click **Next**.
+6. In the **NiFi Configuration** page, accept all the defaults except for **This flow deployment uses custom python processors** ( Repeat the same steps as done previously to point to the S3 bucket containing the custom processor ) (no need to change runtime version, autostart behavior, inbound connections and custom NAR) and click **Next**.
 
     <img src="images/6_flow_deployment_nifi_config.png" alt="image" style="width:800px;height:auto;">
 
