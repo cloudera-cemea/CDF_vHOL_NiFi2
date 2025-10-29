@@ -121,6 +121,8 @@ This default context is automatically bound to each Process Group you create wit
    * In the overview of the session settings make sure **This flow deployment uses custom python processors** is checked. When you check this you will get a pop-up to specify the S3 location of the custom python processor we are going to use. Ask the instructor for the specific location. Your username and workload password are required.
 
    <img src="images/nifi2-custom-processor.png" alt="image" style="width:600px;height:auto;">
+
+   * Select the extra small size and click on **Start Test Session**
      
    * Wait for the status to change to Active Test Session.
 
