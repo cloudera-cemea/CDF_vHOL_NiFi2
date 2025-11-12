@@ -956,3 +956,31 @@ You will start by creating a topic to store the results of your query and then m
 14.	Click on the Data Explorer icon (<img src="images/ssb_9_smm_topics_icon.png" alt="image" style="width:20px;height:auto;">) for the topic  to visualize the data in the topic. You should be able to see recently added data with the aggregations produced by job4:
 
     <img src="images/ssb_9_smm_topic_content_full.png" alt="image" style="width:800px;height:auto;">
+
+### Bonus Lab Exercise
+If time allows, please execute the following steps to get familiar with the SSB API. With this API you can build and operationalize CI/CD pipelines so there is no manual intervention needed. To keep the exercise simple we use the API explorer of SSB to simulate the automation.
+
+1. In the top left screen of the SSB UI click on the orange icon. I side panel will appear
+2. On the side panel click on **API Explorer**
+3. Your browser takes you to a new tab containing a swagger UI with all the api calls of the SSB.
+#### Get your project 
+1. In the API explorer search for **Project Operations**
+2. Click on **/api/v2/projects** and a box will expand.
+3. Click on **Try it out!**
+4. Click on **Execute**
+5. In the response body you will see something similar like this ( write down the id that belongs to your project **<userid>_default**:
+   ```[
+  {
+    "id": "ffffffff",
+    "name": "ssb_default",
+    "description": "Default Team"
+  },
+  {
+    "id": "035e2343",
+    "name": "user099_default",
+    "description": "user099's Project"
+  }
+]```
+#### Create a job
+
+
