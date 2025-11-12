@@ -968,8 +968,9 @@ If time allows, please execute the following steps to get familiar with the SSB 
 2. Click on **/api/v2/projects** and a box will expand.
 3. Click on **Try it out!**
 4. Click on **Execute**
-5. In the response body you will see something similar like this ( write down the id that belongs to your project **<userid>_default**:
-   ```[
+5. In the response body you will see something similar like this ( write down the id that belongs to your project **<userid>_default** : ::
+   
+   [
   {
     "id": "ffffffff",
     "name": "ssb_default",
@@ -980,7 +981,8 @@ If time allows, please execute the following steps to get familiar with the SSB 
     "name": "user099_default",
     "description": "user099's Project"
   }
-]```
+]
+
 #### Create a job
 
 
