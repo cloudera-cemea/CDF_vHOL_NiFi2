@@ -112,7 +112,7 @@ This default context is automatically bound to each Process Group you create wit
 
     <img src="images/3_cdf_editparam_2.png" alt="image" style="width:800px;height:auto;">
 
-3. Locate the parameter **CDP Workload User Password** and similarly add the password for the login to the **Value** field and click on **Apply Changes**
+3. Locate the parameter **CDP Workload User Password** and similarly add the password for the login to the **Value** field, as well as the **Kafka broker endpoints** and the **schema trgistry hostname** that has been provided in the slides, and click on **Apply Changes**
 
 4. Enable the Test Session before enabling the services.
 
