@@ -1016,7 +1016,7 @@ If time allows, please execute the following steps to get familiar with the SSB 
 2. Search for **/api/v2/projects/{projectId}/jobs/{id}/stop** and expand the call
 3. Click on **Try it out!**
 4. In this API call **id** and **projectId** is mandatory. Fill in the previously noted values, use the following for the **Request Body**
-   ```
+```
    {
 "savepoint": false
 }
