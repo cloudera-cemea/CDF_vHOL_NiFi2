@@ -984,5 +984,43 @@ If time allows, please execute the following steps to get familiar with the SSB 
 ]
 
 #### Create a job
+1. In the API explorer search for **Job Operations**
+2. Expand the call **/api/v2/projects/{projectId}/jobs**
+3. Click on **Try it out!**
+4. **projectId** is mandatory and needs to be filled in. This is the id you got from the previous api call
+5. As this is a POST request the body needs to be filled in with a payload for the API call:
+```
+{
+    "sql": "SELECT * FROM user099_syslog_data;",
+    "job_config": {
+        "job_name": "user099_jobA",
+        "runtime_config": {
+            "execution_mode": "PER_JOB"
+        }
+    }
+}
+
+```
+6. Replace **user099** with your actual user id
+7. Click on **Execute** to create the job.
+8. Review the output of the job ( and write down the **job_id** from the response body ) and verify you also see the job in the SSB UI.
+#### Start a job
+1. In the API explorer search for **Job Operations** ( most likely you are already on that section )
+2. Search for **/api/v2/projects/{projectId}/jobs/{id}/execute** and expand the call
+3. Click on **Try it out!**
+4. In this API call **id** and **projectId** is mandatory. Fill in the previously noted values , make the **Request Body** empty
+5. Click on **Execute**
+6. Review if the job has started in the SSB UI
+#### Stop a job
+1. In the API explorer search for **Job Operations** ( most likely you are already on that section )
+2. Search for **/api/v2/projects/{projectId}/jobs/{id}/stop** and expand the call
+3. Click on **Try it out!**
+4. In this API call **id** and **projectId** is mandatory. Fill in the previously noted values, use the following for the **Request Body**
+   ```
+   {
+"savepoint": false
+}
+```
+5. Click on **Try it out!**
 
 
