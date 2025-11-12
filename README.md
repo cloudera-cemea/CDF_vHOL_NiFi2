@@ -226,16 +226,16 @@ This default context is automatically bound to each Process Group you create wit
 
             | **Property**  | **Value** |
             | ----------------- | ------------- | 
-            | Kafka Brokers| **#{Kafka Broker Endpoint}** |
-            | Topic Name| **#{Kafka Destination Avro Topic}** |
-            | Record Reader| **WS_JSON_Syslog_Reader** |
-            | Record Writer| **WS_Avro_Syslog_Writer** |
-            | Use Transactions| **false** |
-            | Security Protocol| **SASL_SSL** |
-            | SASL Mechanism| **PLAIN** |
+            | bootstrap.servers| **#{Kafka Broker Endpoint}** |
+            | topic| **#{Kafka Destination Avro Topic}** |
+            | record-reader| **WS_JSON_Syslog_Reader** |
+            | record-writer| **WS_Avro_Syslog_Writer** |
+            | use-transactions| **false** |
+            | security.protocol| **SASL_SSL** |
+            | sasl.mechanism| **PLAIN** |
             | sasl.username| **#{CDP Workload User}** | 
             | sasl.password| **#{CDP Workload User Password}** | 
-            | SSL Context Service| **Default NiFi SSL Context Service** |
+            | ssl.context.service| **Default NiFi SSL Context Service** |
 
             <img src="images/3_4_publish_kafka_config.png" alt="image" style="width:600px;height:auto;">
 
